@@ -3,8 +3,8 @@ import requests
 import pandas as pd
 import json
 
-api_key = "TJ4FD471UHFDHH2134D3X3SPI3FHP2RG"
-site = 1337258
+api_key = "API_KEY"
+site = 1 # Site no. as an integer
 base_url = f"https://monitoringapi.solaredge.com/site/{site}/details"
 params = {
     'size': 100,
