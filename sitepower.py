@@ -4,8 +4,8 @@ import pandas as pd
 import json
 
 # API Configuration
-api_key = "TJ4FD471UHFDHH2134D3X3SPI3FHP2RG"
-site_id = 1337258
+api_key = "API_KEY"
+site_id = 1
 base_url = f"https://monitoringapi.solaredge.com/site/{site_id}/powerDetails"
 
 # Request parameters
