@@ -4,7 +4,7 @@ import pandas as pd
 import json
 
 api_key = "API_KEY"
-site = 1337258
+site = 1 # Site no. as an integer
 base_url = f"https://monitoringapi.solaredge.com/site/{site}/overview"
 params = {
     'size': 100,
